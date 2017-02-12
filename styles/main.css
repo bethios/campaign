@@ -8,7 +8,6 @@
 
 body {
 	height: 600px;
-	background-image: url("paper.gif");
 }
 
 #sign {
@@ -38,18 +37,7 @@ p{
 
 form input{
 	font-family: "Arvo";
-	font-size: 100px;
-	background-color: transparent;
-	border: none;
-	width: 100%;
-	text-align: center;
-	color: white;
 	font-weight: bold;
-}
-
-#refresh_button form input{
-	font: black;
-	font-size: 20px;
 }
 
 #name_element {
