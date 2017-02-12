@@ -1,0 +1,96 @@
+.html, body {
+  font-family: "Sanchez", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+	height: 600px;
+	background-image: url("paper.gif");
+}
+
+#sign {
+	background-color: red;
+	margin-bottom:50px;
+	padding: 0px;
+}
+
+body .supporting .col-md-8 img{
+	margin: 0;
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+	border: none;
+}
+
+#namedisplay  {
+	background-color: #0B24FA;
+	margin-top: 50px;
+	padding: 0px;
+	border:none;
+}
+
+p{
+	font-size: 20px;
+}
+
+form input{
+	font-family: "Arvo";
+	font-size: 100px;
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+#refresh_button form input{
+	font: black;
+	font-size: 20px;
+}
+
+#name_element {
+	text-transform: uppercase;
+	color:white;
+	font-size: 100px;
+	font-family: "Arvo";
+	font-weight: bold;
+}
+
+#generator {
+	color: white;
+	padding: 30px;
+	font-size: 100px;
+	font-family: "Arvo";
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #696A6C;
+	padding: 50px 0 ;
+	text-align: left;
+}
+
+footer ul li {
+	display: inline-block;
+	padding-right: 30px;
+
+}
+.button a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.button a:hover {
+	background: rgba(255, 255, 255, 0.9);
+	color: #696A6C;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5%;
+}
