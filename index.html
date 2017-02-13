@@ -31,21 +31,20 @@
 	<div class="container">
 			<div class="row">
 			<div class="col-md-8" pull center id = "instructions">
+                    <p>Planning to run?  Need a campaign slogan?  Use our campaign slogan generator and inspire a nation! This generator mashes up tried and true campaign slogans dating back to the 1840's using a Markov chain.</p>
                     <form id="nameForm">
 						<label for="lname">Last Name</label> 
                         <input type="text" name="lname" id="lname" placeholder="Who's Running?">
                         <input type="button" onclick="generateMarkov()" value="Get Your Slogan!">
                         
 					</form>
-					<p>See the list of original presidential campaign slogans <a href: "https://en.wikipedia.org/wiki/List_of_U.S._presidential_campaign_slogans">on Wikipedia.</a>
+					<p>See the list of original (and often really odd) presidential campaign slogans <a href: "https://en.wikipedia.org/wiki/List_of_U.S._presidential_campaign_slogans">on Wikipedia.</a>
 					</p>
 			</div>	
-				<div class="col-md-8" pull center>
-			     </div>	
 				
 				<section class="col-md-8" pull center id ="sign">
                     <p id = "namedisplay"></p>
-					<img src="assets/starsBR.jpg">
+					<img id="starBanner" src="assets/starsBR_1.jpg">
 					<p id="generator"></p>
 
 				</section>	

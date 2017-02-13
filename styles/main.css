@@ -17,7 +17,7 @@ body {
     border: none; 
 }
 
-body .supporting .col-md-8 img{
+#starBanner{
 	margin: 0;
 	width: 100%;
 	float: left;
@@ -26,8 +26,9 @@ body .supporting .col-md-8 img{
 }
 
 #namedisplay  {
-	background-color: #0B24FA;
+	background-color: #4200FF;
 	margin-top: 50px;
+    margin-bottom: 0;
 	padding: 0px;
 	border:none;
     color: white; 
@@ -42,6 +43,9 @@ p{
 	font-size: 20px;
 }
 
+form {
+    margin: 40px; 
+}
 
 #generator {
 	color: white;
