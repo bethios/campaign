@@ -11,9 +11,10 @@ body {
 }
 
 #sign {
-	background-color: red;
+    margin-top: 0; 
 	margin-bottom:50px;
 	padding: 0px;
+    border: none; 
 }
 
 body .supporting .col-md-8 img{
@@ -29,24 +30,18 @@ body .supporting .col-md-8 img{
 	margin-top: 50px;
 	padding: 0px;
 	border:none;
+    color: white; 
+    font-size: 100px;
+    font-family: "Arvo";
+    font-weight: bold;
+    text-transform: uppercase;
+    background: blue; 
 }
 
 p{
 	font-size: 20px;
 }
 
-form input{
-	font-family: "Arvo";
-	font-weight: bold;
-}
-
-#name_element {
-	text-transform: uppercase;
-	color:white;
-	font-size: 100px;
-	font-family: "Arvo";
-	font-weight: bold;
-}
 
 #generator {
 	color: white;
@@ -55,6 +50,7 @@ form input{
 	font-family: "Arvo";
 	text-transform: capitalize;
 	font-weight: bold;
+    background-color: red; 
 }
 
 footer {
@@ -82,3 +78,5 @@ footer ul li {
 	padding: 10px 10px;
 	border-radius: 5%;
 }
+
+

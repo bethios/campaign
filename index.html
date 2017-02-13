@@ -33,23 +33,22 @@
 			<div class="col-md-8" pull center id = "instructions">
                     <form id="nameForm">
 						<label for="lname">Last Name</label> 
-                        <input type="text" name="lname">
-                        <input type="button" onclick="generateMarkov() displayName()" value="Get Your Slogan!">
+                        <input type="text" name="lname" id="lname" placeholder="Who's Running?">
+                        <input type="button" onclick="generateMarkov()" value="Get Your Slogan!">
                         
 					</form>
 					<p>See the list of original presidential campaign slogans <a href: "https://en.wikipedia.org/wiki/List_of_U.S._presidential_campaign_slogans">on Wikipedia.</a>
 					</p>
 			</div>	
-				
 				<div class="col-md-8" pull center>
-                    <p id = "namedisplay"></p>
 			     </div>	
 				
-				<div class="col-md-8" pull center id ="sign">
+				<section class="col-md-8" pull center id ="sign">
+                    <p id = "namedisplay"></p>
 					<img src="assets/starsBR.jpg">
 					<p id="generator"></p>
 
-				</div>	
+				</section>	
 			</div>
 
 	</div>
@@ -69,3 +68,4 @@
 
 
 </html>
+
